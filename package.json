@@ -2,9 +2,17 @@
   "name": "webpacktest",
   "version": "1.0.0",
   "main": "index.js",
+  "scripts": {
+    "start": "webpack --mode development",
+    "build": "webpack --mode production"
+  },
   "license": "MIT",
   "devDependencies": {
     "webpack": "^4.29.3",
     "webpack-cli": "^3.2.3"
+  },
+  "dependencies": {
+    "react": "^16.8.1",
+    "react-dom": "^16.8.1"
   }
 }
